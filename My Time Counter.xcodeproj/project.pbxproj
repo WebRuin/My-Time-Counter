@@ -195,6 +195,7 @@
 				TargetAttributes = {
 					19B8EA9F1BAC09D000E0D861 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = C976B4WGKJ;
 					};
 					19B8EAB61BAC09D100E0D861 = {
 						CreatedOnToolsVersion = 7.1;
@@ -402,7 +403,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "My Time Counter/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.webruin.My-Time-Counter";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -413,7 +416,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "My Time Counter/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.webruin.My-Time-Counter";
 				PRODUCT_NAME = "$(TARGET_NAME)";
