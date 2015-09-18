@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19B8EAA41BAC09D000E0D861 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B8EAA31BAC09D000E0D861 /* AppDelegate.swift */; };
+		19B8EAA61BAC09D000E0D861 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B8EAA51BAC09D000E0D861 /* ViewController.swift */; };
+		19B8EAA91BAC09D100E0D861 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19B8EAA71BAC09D100E0D861 /* Main.storyboard */; };
+		19B8EAAC1BAC09D100E0D861 /* My_Time_Counter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 19B8EAAA1BAC09D100E0D861 /* My_Time_Counter.xcdatamodeld */; };
+		19B8EAAE1BAC09D100E0D861 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19B8EAAD1BAC09D100E0D861 /* Assets.xcassets */; };
+		19B8EAB11BAC09D100E0D861 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19B8EAAF1BAC09D100E0D861 /* LaunchScreen.storyboard */; };
+		19B8EABC1BAC09D100E0D861 /* My_Time_CounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B8EABB1BAC09D100E0D861 /* My_Time_CounterTests.swift */; };
+		19B8EAC71BAC09D100E0D861 /* My_Time_CounterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B8EAC61BAC09D100E0D861 /* My_Time_CounterUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		19B8EAB81BAC09D100E0D861 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19B8EA981BAC09D000E0D861 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19B8EA9F1BAC09D000E0D861;
+			remoteInfo = "My Time Counter";
+		};
+		19B8EAC31BAC09D100E0D861 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19B8EA981BAC09D000E0D861 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19B8EA9F1BAC09D000E0D861;
+			remoteInfo = "My Time Counter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19B8EAA01BAC09D000E0D861 /* My Time Counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Time Counter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		19B8EAA31BAC09D000E0D861 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		19B8EAA51BAC09D000E0D861 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		19B8EAA81BAC09D100E0D861 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		19B8EAAB1BAC09D100E0D861 /* My_Time_Counter.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = My_Time_Counter.xcdatamodel; sourceTree = "<group>"; };
+		19B8EAAD1BAC09D100E0D861 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		19B8EAB01BAC09D100E0D861 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		19B8EAB21BAC09D100E0D861 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19B8EAB71BAC09D100E0D861 /* My Time CounterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My Time CounterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		19B8EABB1BAC09D100E0D861 /* My_Time_CounterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_Time_CounterTests.swift; sourceTree = "<group>"; };
+		19B8EABD1BAC09D100E0D861 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19B8EAC21BAC09D100E0D861 /* My Time CounterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My Time CounterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		19B8EAC61BAC09D100E0D861 /* My_Time_CounterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_Time_CounterUITests.swift; sourceTree = "<group>"; };
+		19B8EAC81BAC09D100E0D861 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19B8EA9D1BAC09D000E0D861 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19B8EAB41BAC09D100E0D861 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19B8EABF1BAC09D100E0D861 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19B8EA971BAC09D000E0D861 = {
+			isa = PBXGroup;
+			children = (
+				19B8EAA21BAC09D000E0D861 /* My Time Counter */,
+				19B8EABA1BAC09D100E0D861 /* My Time CounterTests */,
+				19B8EAC51BAC09D100E0D861 /* My Time CounterUITests */,
+				19B8EAA11BAC09D000E0D861 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		19B8EAA11BAC09D000E0D861 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19B8EAA01BAC09D000E0D861 /* My Time Counter.app */,
+				19B8EAB71BAC09D100E0D861 /* My Time CounterTests.xctest */,
+				19B8EAC21BAC09D100E0D861 /* My Time CounterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19B8EAA21BAC09D000E0D861 /* My Time Counter */ = {
+			isa = PBXGroup;
+			children = (
+				19B8EAA31BAC09D000E0D861 /* AppDelegate.swift */,
+				19B8EAA51BAC09D000E0D861 /* ViewController.swift */,
+				19B8EAA71BAC09D100E0D861 /* Main.storyboard */,
+				19B8EAAD1BAC09D100E0D861 /* Assets.xcassets */,
+				19B8EAAF1BAC09D100E0D861 /* LaunchScreen.storyboard */,
+				19B8EAB21BAC09D100E0D861 /* Info.plist */,
+				19B8EAAA1BAC09D100E0D861 /* My_Time_Counter.xcdatamodeld */,
+			);
+			path = "My Time Counter";
+			sourceTree = "<group>";
+		};
+		19B8EABA1BAC09D100E0D861 /* My Time CounterTests */ = {
+			isa = PBXGroup;
+			children = (
+				19B8EABB1BAC09D100E0D861 /* My_Time_CounterTests.swift */,
+				19B8EABD1BAC09D100E0D861 /* Info.plist */,
+			);
+			path = "My Time CounterTests";
+			sourceTree = "<group>";
+		};
+		19B8EAC51BAC09D100E0D861 /* My Time CounterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				19B8EAC61BAC09D100E0D861 /* My_Time_CounterUITests.swift */,
+				19B8EAC81BAC09D100E0D861 /* Info.plist */,
+			);
+			path = "My Time CounterUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19B8EA9F1BAC09D000E0D861 /* My Time Counter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19B8EACB1BAC09D100E0D861 /* Build configuration list for PBXNativeTarget "My Time Counter" */;
+			buildPhases = (
+				19B8EA9C1BAC09D000E0D861 /* Sources */,
+				19B8EA9D1BAC09D000E0D861 /* Frameworks */,
+				19B8EA9E1BAC09D000E0D861 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "My Time Counter";
+			productName = "My Time Counter";
+			productReference = 19B8EAA01BAC09D000E0D861 /* My Time Counter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		19B8EAB61BAC09D100E0D861 /* My Time CounterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19B8EACE1BAC09D100E0D861 /* Build configuration list for PBXNativeTarget "My Time CounterTests" */;
+			buildPhases = (
+				19B8EAB31BAC09D100E0D861 /* Sources */,
+				19B8EAB41BAC09D100E0D861 /* Frameworks */,
+				19B8EAB51BAC09D100E0D861 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19B8EAB91BAC09D100E0D861 /* PBXTargetDependency */,
+			);
+			name = "My Time CounterTests";
+			productName = "My Time CounterTests";
+			productReference = 19B8EAB71BAC09D100E0D861 /* My Time CounterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		19B8EAC11BAC09D100E0D861 /* My Time CounterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19B8EAD11BAC09D100E0D861 /* Build configuration list for PBXNativeTarget "My Time CounterUITests" */;
+			buildPhases = (
+				19B8EABE1BAC09D100E0D861 /* Sources */,
+				19B8EABF1BAC09D100E0D861 /* Frameworks */,
+				19B8EAC01BAC09D100E0D861 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19B8EAC41BAC09D100E0D861 /* PBXTargetDependency */,
+			);
+			name = "My Time CounterUITests";
+			productName = "My Time CounterUITests";
+			productReference = 19B8EAC21BAC09D100E0D861 /* My Time CounterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19B8EA981BAC09D000E0D861 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = WebRuin;
+				TargetAttributes = {
+					19B8EA9F1BAC09D000E0D861 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					19B8EAB61BAC09D100E0D861 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 19B8EA9F1BAC09D000E0D861;
+					};
+					19B8EAC11BAC09D100E0D861 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 19B8EA9F1BAC09D000E0D861;
+					};
+				};
+			};
+			buildConfigurationList = 19B8EA9B1BAC09D000E0D861 /* Build configuration list for PBXProject "My Time Counter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 19B8EA971BAC09D000E0D861;
+			productRefGroup = 19B8EAA11BAC09D000E0D861 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19B8EA9F1BAC09D000E0D861 /* My Time Counter */,
+				19B8EAB61BAC09D100E0D861 /* My Time CounterTests */,
+				19B8EAC11BAC09D100E0D861 /* My Time CounterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19B8EA9E1BAC09D000E0D861 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19B8EAB11BAC09D100E0D861 /* LaunchScreen.storyboard in Resources */,
+				19B8EAAE1BAC09D100E0D861 /* Assets.xcassets in Resources */,
+				19B8EAA91BAC09D100E0D861 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19B8EAB51BAC09D100E0D861 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19B8EAC01BAC09D100E0D861 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19B8EA9C1BAC09D000E0D861 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19B8EAA61BAC09D000E0D861 /* ViewController.swift in Sources */,
+				19B8EAAC1BAC09D100E0D861 /* My_Time_Counter.xcdatamodeld in Sources */,
+				19B8EAA41BAC09D000E0D861 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19B8EAB31BAC09D100E0D861 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19B8EABC1BAC09D100E0D861 /* My_Time_CounterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19B8EABE1BAC09D100E0D861 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19B8EAC71BAC09D100E0D861 /* My_Time_CounterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		19B8EAB91BAC09D100E0D861 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19B8EA9F1BAC09D000E0D861 /* My Time Counter */;
+			targetProxy = 19B8EAB81BAC09D100E0D861 /* PBXContainerItemProxy */;
+		};
+		19B8EAC41BAC09D100E0D861 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19B8EA9F1BAC09D000E0D861 /* My Time Counter */;
+			targetProxy = 19B8EAC31BAC09D100E0D861 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		19B8EAA71BAC09D100E0D861 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19B8EAA81BAC09D100E0D861 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		19B8EAAF1BAC09D100E0D861 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19B8EAB01BAC09D100E0D861 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		19B8EAC91BAC09D100E0D861 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		19B8EACA1BAC09D100E0D861 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		19B8EACC1BAC09D100E0D861 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "My Time Counter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.webruin.My-Time-Counter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		19B8EACD1BAC09D100E0D861 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "My Time Counter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.webruin.My-Time-Counter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		19B8EACF1BAC09D100E0D861 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "My Time CounterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.webruin.My-Time-CounterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/My Time Counter.app/My Time Counter";
+			};
+			name = Debug;
+		};
+		19B8EAD01BAC09D100E0D861 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "My Time CounterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.webruin.My-Time-CounterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/My Time Counter.app/My Time Counter";
+			};
+			name = Release;
+		};
+		19B8EAD21BAC09D100E0D861 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "My Time CounterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.webruin.My-Time-CounterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "My Time Counter";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		19B8EAD31BAC09D100E0D861 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "My Time CounterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.webruin.My-Time-CounterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "My Time Counter";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19B8EA9B1BAC09D000E0D861 /* Build configuration list for PBXProject "My Time Counter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19B8EAC91BAC09D100E0D861 /* Debug */,
+				19B8EACA1BAC09D100E0D861 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19B8EACB1BAC09D100E0D861 /* Build configuration list for PBXNativeTarget "My Time Counter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19B8EACC1BAC09D100E0D861 /* Debug */,
+				19B8EACD1BAC09D100E0D861 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		19B8EACE1BAC09D100E0D861 /* Build configuration list for PBXNativeTarget "My Time CounterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19B8EACF1BAC09D100E0D861 /* Debug */,
+				19B8EAD01BAC09D100E0D861 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		19B8EAD11BAC09D100E0D861 /* Build configuration list for PBXNativeTarget "My Time CounterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19B8EAD21BAC09D100E0D861 /* Debug */,
+				19B8EAD31BAC09D100E0D861 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		19B8EAAA1BAC09D100E0D861 /* My_Time_Counter.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				19B8EAAB1BAC09D100E0D861 /* My_Time_Counter.xcdatamodel */,
+			);
+			currentVersion = 19B8EAAB1BAC09D100E0D861 /* My_Time_Counter.xcdatamodel */;
+			path = My_Time_Counter.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 19B8EA981BAC09D000E0D861 /* Project object */;
+}
