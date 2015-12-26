@@ -9,12 +9,13 @@
 import UIKit
 
 class DatePickerController: UIViewController {
-    
-    @IBOutlet var datePicker:UIDatePicker!
+    @IBOutlet var datePicker: UIDatePicker!
     @IBOutlet var dateDisplay: UILabel!
     @IBOutlet var dayDisplay: UILabel!
     @IBOutlet var monthDisplay: UILabel!
     @IBOutlet var yearDisplay: UILabel!
+    
+    let dateFormatter = NSDateFormatter()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,8 +31,6 @@ class DatePickerController: UIViewController {
     @IBAction func datePickerChanged(sender: AnyObject) {
         setDate()
     }
-    
-    let dateFormatter = NSDateFormatter()
 
     /*
     // MARK: - Navigation
